@@ -1,5 +1,5 @@
 
 FROM nginx:latest
 RUN apt-get update && apt-get upgrade -y
-COPY index.html /var/www/html/
+COPY index.html /usr/share/nginx/html/
 EXPOSE 80 
